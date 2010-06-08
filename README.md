@@ -1,8 +1,9 @@
-# Zack’s Skeleton Django Project
+# Django Skeleton
 
-This is a small skeleton project based on the principles described in my blog
-post, “[Django Project Conventions, Revisited][blog post]”.
-
+This is a fork of Zachary Voase's
+[django-szkel-project](http://github.com/zacharyvoase/django-zskel-project)
+which is based of his blog post “[Django Project Conventions, Revisited][blog
+post]”.
 
 ## Features
 
@@ -45,14 +46,11 @@ post, “[Django Project Conventions, Revisited][blog post]”.
 
 2.  Clone this repo into a sub-directory of the new virtualenv:
 
-        $ git clone 'git://github.com/zacharyvoase/django-zskel-project.git' myproject
+        $ git clone 'git@github.com:carmi/django-skeleton.git' myproject
         $ cd myproject/
         
         # Remove .empty files, used to make Hg track otherwise-empty dirs.
         $ find . -name '.empty' -exec rm {} \;
-        
-        $ rm .hgignore # OR
-        $ rm .gitignore
 
 3.  Remove the pointer to the GitHub project:
 

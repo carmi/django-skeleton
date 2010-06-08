@@ -49,8 +49,6 @@ post]”.
         $ git clone 'git@github.com:carmi/django-skeleton.git' myproject
         $ cd myproject/
         
-        # Remove .empty files, used to make Hg track otherwise-empty dirs.
-        $ find . -name '.empty' -exec rm {} \;
 
 3.  Remove the pointer to the GitHub project:
 

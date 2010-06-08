@@ -18,13 +18,13 @@ sys.path.append(PROJECT_DIR / 'apps')
 sys.path.append(PROJECT_DIR / 'libs')
 
 ADMINS = (
-    ('Zachary Voase', 'zacharyvoase@me.com'),
+    ('Evan Carmi', 'evan<at>ecarmi<dot>org'),
 )
 
 MANAGERS = ADMINS
 
-TIME_ZONE = 'Europe/London'
-LANGUAGE_CODE = 'en-gb'
+TIME_ZONE = 'America/Los_Angeles'
+LANGUAGE_CODE = 'en-US'
 
 SITE_ID = 1
 USE_I18N = False
@@ -73,7 +73,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
-    
+
     'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
@@ -92,10 +92,10 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
-    
+
     ## Third-party apps
     'debug_toolbar',
-    
+
     ## Local apps
     # Nothing here yet.
 )

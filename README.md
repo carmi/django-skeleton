@@ -18,7 +18,7 @@ post]”.
 
 *   [Fabric][] installed as standard with basic fabfile.py.
     
-    [fabric]: http://docs.fabfile.org
+  [fabric]: http://docs.fabfile.org
 
 *   Logging set up with sensible defaults as standard.
 

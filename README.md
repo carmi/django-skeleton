@@ -48,6 +48,10 @@ post]”.
 
         $ git clone 'git@github.com:carmi/django-skeleton.git' myproject
         $ cd myproject/
+
+        # Remove .empty files, used to make Hg/git track otherwise-empty dirs.
+        $ find . -name '.empty' -exec rm {} \;
+
         
 
 3.  Remove the pointer to the GitHub project:
@@ -100,13 +104,3 @@ There is no `manage.py` file here; use [django-boss][django-boss] or
     $ django-admin.py test myapp
 
   [django-boss]: http://github.com/zacharyvoase/django-boss
-
-
-## More Information
-
-This layout is based on my original [blog post][]; read that for comprehensive
-information on the architecture and rationale behind this project. You can use
-the GitHub [issue tracker][] to report bugs or make suggestions.
-
-  [blog post]: http://blog.zacharyvoase.com/2010-02-03-django-project-conventions-revisited
-  [issue tracker]: http://github.com/zacharyvoase/django-zskel-project/issues

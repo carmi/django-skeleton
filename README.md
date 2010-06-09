@@ -16,6 +16,10 @@ post]”.
 
   [django debug toolbar]: http://github.com/robhudson/django-debug-toolbar
 
+*   [Fabric][] installed as standard with basic fabfile.py.
+    
+    [fabric]: http://docs.fabfile.org
+
 *   Logging set up with sensible defaults as standard.
 
 *   Clean implementation of ‘settings modes’; have a single ‘common’ settings

@@ -54,7 +54,7 @@ post]”.
         $ cd myproject/
 
         # Remove .empty files, used to make Hg/git track otherwise-empty dirs.
-        $ find . -name '.empty' -exec rm {} \;
+        $ find . -name '.empty' -exec rm -v {} \;
 
         
 
@@ -78,7 +78,7 @@ post]”.
 
 5.  Symlink the project directory into the virtualenv’s `site-packages`:
 
-        $ ln -s `pwd` ../lib/python2.6/site-packages/`basename pwd`
+        $ ln -s `pwd` ../lib/python2.6/site-packages/`basename \`pwd\``
     
     Replace `python2.6` with the installed version of Python on your machine.
 

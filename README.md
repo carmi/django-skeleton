@@ -42,7 +42,7 @@ post]”.
 
 1.  Make, enter and activate a virtualenv:
     
-        $ virtualenv mysite
+        $ virtualenv --no-site-packages mysite
         New python executable in mysite/bin/python
         Installing setuptools............done.
         $ cd mysite/
